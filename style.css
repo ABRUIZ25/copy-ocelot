@@ -1,0 +1,132 @@
+*{margin: 0;
+padding: 0%;}
+
+.top-nav {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+   padding-bottom: 10px;
+    background-color: #039;
+    
+}
+.nav-txt{
+    color: white;
+    font-size: 25px;
+}
+.search-bar{
+    
+    background-color: #2a4ebb;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 2px solid black;
+    border-radius: 15px;
+    color: white;
+    font-size: 15px;
+}
+
+.prem{
+    padding-right: 15px;
+    border: 2px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 23px;
+    padding-right: 23px;
+    border-radius: 15px;
+    background-color: white;
+    margin-right: 10px;
+}
+
+.town{
+    padding-top: 15px;
+    padding-left: 80px;
+   padding-bottom: 15px;
+    background-color: #2952ce;
+}
+
+.days{
+    padding-right: 10px;
+    color: white;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   justify-content: space-between;
+   padding-bottom: 15px;
+    background-color: #091a4b;
+    padding-left: 10px;
+}
+body{
+    
+    background-color: #113192;
+  
+}
+
+.info {display: flex;
+  justify-content: center;
+    text-align: center;
+    
+    
+}
+
+.top-stories{display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "top top"
+    "one two"
+    "one three"
+    "one three"
+    "none four" ;
+    padding-left: 25px;
+    padding-right: 25px;
+     background-color:white;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 30px;
+    
+    
+    
+}
+
+.top-text { grid-area: top ;}
+.one{ grid-area: one;
+   
+    
+
+}
+.two{ grid-area: two;
+    
+  
+}
+.three {
+    grid-area: three;
+}
+.four{
+    grid-area:four ;
+}
+
+.tracker{display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+   padding-right: 25px;
+    background-color:white;
+   border: 2px solid black;
+   border-radius: 10px;
+   margin-top: 30px;
+  
+    
+}
+
+.top-pic{
+    padding-left: 4px;
+    
+}
+
+
+
+
